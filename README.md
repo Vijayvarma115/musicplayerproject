@@ -18,3 +18,43 @@ Make sure you have the following installed on your system:
 
 - Python 3.x
 - PyQt5
+
+Usage
+1.Run the application:
+      python music_player.py
+
+2.Load a folder containing MP3 files using the "Load Folder" button.
+
+3.Play, pause, resume, and stop music using the corresponding controls.
+
+
+
+Screenshots
+1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+License
+
+This project is licensed under the  Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0).
