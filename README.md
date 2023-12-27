@@ -30,8 +30,16 @@ Usage
 
 
 Screenshots
-1.
+1.![Screenshot 2023-12-27 162649](https://github.com/Vijayvarma115/musicplayerproject/assets/145138789/e3744785-581d-4aaf-b4ed-cac004a5f084)
 
+
+2.![2ndss](https://github.com/Vijayvarma115/musicplayerproject/assets/145138789/c66b7138-a508-45bc-8ade-31cf1a2d7eff)
+
+
+3.![3rdss](https://github.com/Vijayvarma115/musicplayerproject/assets/145138789/afe954e5-1965-4e38-8ccf-9b64dafb6407)
+
+
+4.![4thss](https://github.com/Vijayvarma115/musicplayerproject/assets/145138789/3f909e5e-085d-411c-8166-6b529e2fcedc)
 
 
 
