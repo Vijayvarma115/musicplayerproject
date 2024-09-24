@@ -8,48 +8,37 @@ from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 class MusicPlayer(QWidget):
     def __init__(self):
         super().__init__()
-
         self.playlist = []
         self.current_index = 0
         self.is_playing = False
         self.folder_path = ''
-
         self.init_ui()
-
         self.position_timer = QTimer(self)
         self.position_timer.timeout.connect(self.update_position)
-
         
-
-        
-
     def init_ui(self):
         self.setWindowTitle('Music Player')
         self.setGeometry(100, 100, 600, 400)
-
         vbox = QVBoxLayout(self)
-
         
-
     # Create a horizontal layout for playback controls
         hbox_playback = QHBoxLayout()
-
+        
         # Buttons with icons
         play_icon = QIcon('icons/play_icon.png')
         pause_icon = QIcon('icons/pause_icon.png')
         resume_icon = QIcon('icons/resume_icon.png')
         stop_icon = QIcon('icons/stop_icon.png')
         load_folder_icon = QIcon('icons/folder_icon.png')
-
-
+        
         self.play_button = QPushButton(self)
         self.play_button.setIcon(play_icon)
         self.play_button.clicked.connect(self.play_pause_music)
-
+        
         self.pause_button = QPushButton(self)
         self.pause_button.setIcon(pause_icon)
         self.pause_button.clicked.connect(self.pause_music)
-
+        
         self.resume_button = QPushButton(self)
         self.resume_button.setIcon(resume_icon)
         self.resume_button.clicked.connect(self.resume_music)
